@@ -8,6 +8,8 @@ I would like to express my gratitude to the authors of the [Pix2Pix paper](https
 
 Additionally, I would like to thank the author of the [Medium blog post](https://medium.com/@Skpd/pix2pix-gan-for-generating-map-given-satellite-images-using-pytorch-6e50c318673a) titled *"Pix2Pix GAN for Generating Map Given Satellite Images using PyTorch"*. This blog was instrumental in helping me understand the practical implementation of Pix2Pix GANs in PyTorch.
 
+A special thanks to the video [pix2pix GAN Explained](https://youtu.be/UcHe0xiuvpg?si=yX_emMCQWpo3ixHu), which greatly helped me understand the concepts behind Pix2Pix and its application to image-to-image translation.
+
 ## Dataset
 
 Refer to the dataset i have created and used in this project is the "Edges2Human Dataset" from Kaggle, which contains pairs of Canny edge maps and the corresponding human face images. You can find the dataset here: [Edges2Human Dataset](https://www.kaggle.com/datasets/seifyasserahmed/edges2human-dataset).
