@@ -67,3 +67,11 @@ You can view more generated images after further epochs in the [`results/`](resu
 
 ```bash
 python train.py --epochs 50 --lr 1e-4 --betas 0.5 0.999 --lambda 100 --img_height 256 --img_width 256 --batch_size 16
+```
+
+## Future Work
+
+In the future, I plan to work on improving the quality of the paired images in the dataset. By refining the dataset, I aim to enhance the alignment and clarity of the Canny edge maps and their corresponding human face images. This will help to reduce noise and artifacts in the generated images, leading to better performance and more realistic results.
+
+Once the dataset is improved In sha' Allah, I will retrain the Pix2Pix model with the updated data to further increase the quality of the image-to-image translations.
+
