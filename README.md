@@ -57,7 +57,7 @@ Here is a visual comparison of the input (Canny edge map), the generated image, 
 > Middle: Generated face (output) <br>
 > Right: Real face (target) <br>
 
-You can view more generated images after further epochs in the [`results/`](https://github.com/Seif-Yasser-Ahmed/Edges2Human-Pix2Pix/results) folder of this repository.
+You can view more generated images after further epochs in the [`results/`](results/) folder of this repository.
 
 ```bash
 python train.py --epochs 50 --lr 1e-4 --betas 0.5 0.999 --lambda 100 --img_height 256 --img_width 256 --batch_size 16
