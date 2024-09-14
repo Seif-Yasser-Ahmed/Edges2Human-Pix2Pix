@@ -1,5 +1,3 @@
-# Edges2Human-Pix2Pix
-
 # Pix2Pix GAN for Human Face Generation from Canny Edges
 
 This repository contains a Pix2Pix Generative Adversarial Network (GAN) model that performs image-to-image translation, specifically translating Canny edges of a human face into the corresponding realistic human face. The project is implemented using PyTorch and is trained on the "Edges2Human" dataset.
