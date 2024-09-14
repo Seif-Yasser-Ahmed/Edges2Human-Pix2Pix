@@ -2,6 +2,12 @@
 
 This repository contains a Pix2Pix Generative Adversarial Network (GAN) model that performs image-to-image translation, specifically translating Canny edges of a human face into the corresponding realistic human face. The project is implemented using PyTorch and is trained on the "Edges2Human" dataset.
 
+## Acknowledgments
+
+I would like to express my gratitude to the authors of the [Pix2Pix paper](https://arxiv.org/abs/1611.07004) titled *"Image-to-Image Translation with Conditional Adversarial Networks"*. This foundational work provided the core ideas and architecture that made this project possible.
+
+Additionally, I would like to thank the author of the [Medium blog post](https://medium.com/@Skpd/pix2pix-gan-for-generating-map-given-satellite-images-using-pytorch-6e50c318673a) titled *"Pix2Pix GAN for Generating Map Given Satellite Images using PyTorch"*. This blog was instrumental in helping me understand the practical implementation of Pix2Pix GANs in PyTorch.
+
 ## Dataset
 
 Refer to the dataset i have created and used in this project is the "Edges2Human Dataset" from Kaggle, which contains pairs of Canny edge maps and the corresponding human face images. You can find the dataset here: [Edges2Human Dataset](https://www.kaggle.com/datasets/seifyasserahmed/edges2human-dataset).
