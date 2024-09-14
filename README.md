@@ -41,7 +41,7 @@ The following hyperparameters were used for training the model:
 
 ## Training
 
-The model is trained for 2 epochs using the Adam optimizer. The objective function includes both the adversarial loss from the discriminator and an L1 loss between the generated and real images, weighted by the `LAMBDA` hyperparameter.
+The model is trained for 3 epochs using the Adam optimizer. The objective function includes both the adversarial loss from the discriminator and an L1 loss between the generated and real images, weighted by the `LAMBDA` hyperparameter.
 
 ## Results After the First Epoch
 After the first epoch of training, the model begins generating reasonable results, though the quality improves as training continues.
