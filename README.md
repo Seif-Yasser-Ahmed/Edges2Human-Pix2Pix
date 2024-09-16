@@ -60,8 +60,8 @@ Here is a visual comparison of the input (Canny edge map), the generated image, 
 
 
 > Left: Canny edge map (input) <br>
-> Middle: Generated face (output) <br>
-> Right: Real face (target) <br>
+> Middle: Real face (target) <br> 
+> Right: Generated face (output) <br>
 
 You can view more generated images after further epochs in the [`results/`](results/) folder of this repository.
 
